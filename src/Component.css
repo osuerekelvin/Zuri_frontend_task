@@ -1,0 +1,84 @@
+.parent_div{
+    padding: 100px;
+}
+
+#profile_picture {
+  width: 100px;
+  height: 100px;
+  border-radius: 90px;
+}
+
+.subdiv {
+  max-width: 80%;
+  height: 600px;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.btn_div {
+  width: 80%;
+  height: 60px;
+  background-color: #eaecf0;
+  margin: 20px auto;
+  border: 1p solid #eaecf0;
+  border-radius: 5px;
+  
+}
+.btn_div:hover{
+    background-color: rgb(211, 210, 210);
+}
+
+#btn_twitter {
+}
+
+#content_picture{
+
+}
+.footer_div{
+    display: flex;
+    justify-content: space-between;
+    max-width: 60%;
+    margin: 0 auto;
+    padding-bottom: 100px;
+    margin-bottom: 200px;
+}
+#footer_logo{
+    height: 15px;
+}
+#footer_para{
+    font-size: x-small;
+    
+}
+h5{
+   padding-top: 20px;
+   color: black;
+}
+@media screen and (min-width: 320px) and (max-width: 426spx){
+  .parent_div{
+    padding: 0px;
+}
+
+.footer_div{
+  display: block;
+  justify-content: unset;
+  max-width: 70%;
+  margin-left: 0;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+#footer_logo{
+  height: 15px;
+  margin-right: 20px;
+}
+
+#footer_logo1{
+  height: 15px;
+  margin-right: 40px;
+}
+#footer_para{
+  font-size: x-small;
+  margin-left: 40px;
+}
+}
+
+    
