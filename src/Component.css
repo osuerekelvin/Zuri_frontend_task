@@ -1,5 +1,5 @@
 .parent_div{
-    padding: 100px;
+    padding: 0px;
 }
 
 #profile_picture {
@@ -10,7 +10,7 @@
 
 .subdiv {
   max-width: 80%;
-  height: 600px;
+  height: 500px;
   background-color: white;
   margin: 0 auto;
 }
@@ -41,8 +41,12 @@
     margin: 0 auto;
     padding-bottom: 100px;
     margin-bottom: 200px;
+   
 }
 #footer_logo{
+    height: 15px;
+}
+#footer_logo1{
     height: 15px;
 }
 #footer_para{
@@ -52,8 +56,23 @@
 h5{
    padding-top: 20px;
    color: black;
+
 }
-@media screen and (min-width: 320px) and (max-width: 426spx){
+.icon_div{
+  /* background-color: brown; */
+  /* display: flex; */
+  /* justify-content: space-between; */
+}
+.imgg{
+  /* background-color: green; */
+  width: 60px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 426px){
   .parent_div{
     padding: 0px;
 }
@@ -65,6 +84,7 @@ h5{
   margin-left: 0;
   padding-bottom: 10px;
   margin-bottom: 20px;
+ 
 }
 #footer_logo{
   height: 15px;

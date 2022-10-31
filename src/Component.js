@@ -1,9 +1,10 @@
 import React from 'react'
 import './Component.css'
 import Kelvin from './images/Kelvin.jpeg'
-import Content from './images/Content.svg'
+import Slack from './images/slack.svg'
 import Zuri_logo from './images/Zuri.Internship_Logo.svg'
 import ggg from './images/I4G.svg'
+import Icon from './images/Icon.svg'
 
 const Component = () => {
     return (
@@ -33,7 +34,12 @@ const Component = () => {
                 <a id='book_design' href="https://books.zuri.team/design-rules"><h5>Design Books</h5></a>
             </div>
           </div>
-                {/* <img id='content_picture' src={Content} alt="" /> */}
+                <div className='icon_div'>
+                    <div className='imgg'>
+                    <img src={Slack} alt="" />
+                    <a href="https://github.com/osuerekelvin"><img src={Icon} alt="" /></a>
+                    </div>
+                </div>
           <footer>
            <div className='footer_div'>
            <img id='footer_logo' src={Zuri_logo} alt="" />
