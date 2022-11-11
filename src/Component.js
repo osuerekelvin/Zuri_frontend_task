@@ -5,6 +5,7 @@ import Slack from './images/slack.svg'
 import Zuri_logo from './images/Zuri.Internship_Logo.svg'
 import ggg from './images/I4G.svg'
 import Icon from './images/Icon.svg'
+import { Link } from "react-router-dom";
 
 const Component = () => {
     return (
@@ -33,6 +34,11 @@ const Component = () => {
             <div className='btn_div'>
                 <a id='book_design' href="https://books.zuri.team/design-rules"><h5>Design Books</h5></a>
             </div>
+            <div className='btn_div'>
+                <a id='contact' href=""><h5>
+                    <Link to='Component1'>Contact Me</Link>
+                    </h5></a>
+            </div>
           </div>
                 <div className='icon_div'>
                     <div className='imgg'>
@@ -40,14 +46,6 @@ const Component = () => {
                     <a href="https://github.com/osuerekelvin"><img src={Icon} alt="" /></a>
                     </div>
                 </div>
-          <footer>
-           <div className='footer_div'>
-           <img id='footer_logo' src={Zuri_logo} alt="" />
-            <p id='footer_para'>HNG Internship 9 Frontend Task</p>
-            <img id='footer_logo1' src={ggg} alt="" />
-           </div>
-          </footer>
-
 
         </div>
     )

@@ -1,0 +1,113 @@
+.parentdiv1{
+  
+}
+.parentdiv2{
+   
+    width: 100%;
+    margin: 0 auto;
+    /* padding-top: 70px;
+    padding-bottom: 70px; */
+}
+
+.flex1{
+display: flex;
+width: 100%;
+
+}
+.firstname{
+    width: 96%;
+    height: 25px;
+    margin-right: 5px;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+}
+.yooo{
+width: 50%;
+}
+.yooo2{
+width: 50%;
+}
+
+.lastname{
+    width: 96%;
+    height: 25px;
+    margin-left: 5px;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+}
+form{
+    max-width: 60%;
+    margin: 0 auto;
+}
+.h55{
+    text-align: left;
+}
+
+.span1{
+    font-size: 14px;
+  
+}
+.email_input{
+    width: 100%;
+    height: 25px;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+}
+.message_input{
+    width: 100%;
+    height: 80px;
+    margin-bottom: 20px;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+}
+.checker_box{
+ 
+   
+}
+.pp{
+    padding-top: 20px;
+    text-align: left;
+}
+.msg_btn{
+    width: 100%;
+    height: 30px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #1570EF;
+    border: #1570EF;
+    margin-top: 50px;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 426px){
+    .parentdiv2{
+   width: 100%;
+   
+    }
+    .flex1{
+        display: block;
+        width: 100%;
+       }
+       .firstname{
+        width: 296px;
+       
+    }
+    .lastname{
+        width: 265px;
+      
+    }
+    .span1{
+        font-size: 10px;
+    }
+    .checker_box{
+        margin-right: 10px;
+    }
+    p{
+        font-size: medium;
+    }
+    form{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+  }
+  
